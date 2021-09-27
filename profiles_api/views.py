@@ -30,7 +30,7 @@ class HelloApiView(APIView):
         else:
             return Response(
                 serializer.errors,
-                status = status.HTTP_400_BAD_REQUEST_BITCH
+                status = status.HTTP_400_BAD_REQUEST
                 )
 
     # def put(self,request, pk=None):
